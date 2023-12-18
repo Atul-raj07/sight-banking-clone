@@ -806,3 +806,180 @@ margin-bottom: 40px;
     font-size: 35px;
     font-weight: 500;
 }
+#page8{
+    height: 150vh;
+    width: 100%;
+    margin-top: 80px;
+    background: linear-gradient(to left bottom, #67C494,#304A64);
+    padding: 120px;
+    position: relative;
+}
+#page8 #orangebox{
+    height: 25%;
+    width: 50%;
+    border-radius: 0px;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    background-color: #FC7C45;
+}
+#imgbox{
+    height: 200px;
+    border-radius: 20px;
+    background-image: url(https://assets.website-files.com/62fa5980cd922182416f3647/62fb64178ac5706792a2613c_reviews-woman.webp);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    position: absolute;
+    top: -5%;
+    right: 10%;
+}
+#page8-up{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.up3{
+    height: 100%;
+    position: relative;
+    border-radius: 20px;
+    padding: 20px;
+}
+.up3:nth-child(1){
+    width: calc(100% / 3 - 30px);
+    background-image: url(https://assets.website-files.com/62fa5980cd922182416f3647/630f77649fdc652bdc43fac5_reviews-woman-p-500.webp);
+    background-size: cover;
+    background-position: center;
+
+}
+.up3:nth-child(1) #heart{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(144, 228, 144,.8);
+    position: absolute;
+    top: 10%;
+    right: -5%;
+    border-radius: 10px;
+}
+#heart img{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.up3:nth-child(1) img{
+    position: absolute;
+    bottom: -25%;
+    right: -25%;
+}
+.up3:nth-child(2){
+    width: calc(100% / 3 - 30px);
+   padding: 50px;
+}
+.up3:nth-child(2) h5{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.875);
+}
+.up3:nth-child(2) h3{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: white;
+}
+.up3:nth-child(3){
+    width: calc(100% / 3 - 30px);
+    padding: 100px 40px ;
+}
+.up3:nth-child(3) p{
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+
+}
+#page8-down{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+}
+.down3{
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+.down3:nth-child(1){
+    width: calc(100% / 3 - 30px);
+    position: relative;
+    z-index: 99;
+    background-color: transparent;
+}
+.down3:nth-child(2){
+    width: calc(100% / 3 - 30px);
+    padding: 70px;
+    display: flex;
+    position: relative;
+    z-index: 99;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.down3:nth-child(2) #userimg{
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(https://assets.website-files.com/62fa5980cd922182416f3647/62fb64162fcf2267c8a97dbc_ava-boy.webp);
+    background-position: center;
+    background-size: cover;
+    width: 80px;
+    background-color: #FC7C45;
+}
+.down3:nth-child(2) #rate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+#rate #line{
+    height: 20px;
+    width: 2px;
+    background-color: rgb(67, 64, 64);
+}
+.down3:nth-child(3){
+    width: calc(100% / 3 - 30px);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+.down3:nth-child(3) h2{
+    font-size: 45px;
+    font-weight: 500;
+}
+.down3:nth-child(3) input{
+    font-size: 25px;
+    border: none;
+    border-bottom: 2px solid grey;
+    outline: none;
+}
+.down3:nth-child(3) button{
+    padding: 15px 45px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #5BA889;
+}
+footer{
+    height: 95vh;
+    width: 100%;
+    background-color: blue;
+}

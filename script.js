@@ -14,13 +14,11 @@ page1.addEventListener("mousemove",function(dets){
 let imagesecond = document.querySelector(".images:nth-child(2)");
 let img = document.querySelector(".images:nth-child(2) img:nth-child(2)")
 let icon = document.querySelector(".icon")
-// let iconafter = document.querySelector(icon, `::after`)
 imagesecond.addEventListener("mouseenter",function(){
     img.style.transform = "scale(0.8)";
     icon.style.position = 'absolute';
     icon.style.top = "0%";
     icon.style.right = "0%";
-    // iconafter.style.display = "inline"
 
 })
 imagesecond.addEventListener("mouseleave",function(){
@@ -28,5 +26,4 @@ imagesecond.addEventListener("mouseleave",function(){
     icon.style.position = 'absolute';
     icon.style.top = "5%";
     icon.style.right = "5%";
-    // icon.style.display = "inline";
 })
