@@ -713,7 +713,6 @@ margin-top: 14px;
 #page7{
 height: 150vh;
 width: 100%;
-background-color: sienna;
 padding: 60px;
 display: flex;
 align-items: center;
@@ -722,34 +721,88 @@ justify-content: space-between;
 .page7-left{
     height: 100%;
     width: 35%;
-    background-color: sandybrown;
     /* gap: 20px; */
+    padding: 30px;
+    padding-right: 80px;
 }
-.page7-left h3{
+ .page7-left h3{
 font-size: 20px;
-padding: 10%;
 width: 100%;
+font-weight: 500;
+padding-top: 20px;
+height: 220px;
+text-transform: uppercase;
+background-color: #fff;
 }
-.page7-left #icon{
-    height: 40px;
-    width: 40px;
+.page7-left .icon{
+    margin-top: 50px;
+    height: 60px;
+    width: 60px;
     border-radius: 10px;
     padding: 10px;
-
     background-color: #FC7C45;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
-#icon img{
-    height: 25px;
+.icon img{
+    height: 32px;
 }
+.services h4{
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.services p{
+    font-size: 18px;
+    font-weight: 400;
+    opacity: .8;
+} 
 .page7-right{
     height: 100%;
     width: 65%;
-    background-color: wheat;
-    /* display: flex;
+    padding: 30px;
+    padding-left: 60px;
+}
+#getfinance{
+width: 100%;
+padding-top: 20px;
+height: 220px;
+background-color: #fff;
+}
+#getfinance h2{
+font-size: 45px;
+font-weight: 600;
+margin-bottom: 40px;
+}
+#getfinance p{
+    font-weight: 400;
+}
+#cutimg{
+    height: calc(100% - 220px);
+    border-radius: 40px;
+    padding-top: 40px;
+    width: 100%;
+    background-image: url(https://assets.website-files.com/62fa5980cd922182416f3647/62fb64178ac5707599a2613d_services-woman-p-1080.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+#innerdiv{
+    height: 180px;
+    width: 350px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 20px; */
+    justify-content: center;
+}
+#innerdiv h2{
+    font-size: 35px;
+    font-weight: 500;
 }
