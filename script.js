@@ -27,3 +27,12 @@ imagesecond.addEventListener("mouseleave",function(){
     icon.style.top = "5%";
     icon.style.right = "5%";
 })
+let imageseconddown = document.querySelector(".page4down .images:nth-child(3)");
+let imgdown = document.querySelector(".images:nth-child(3) img")
+imageseconddown.addEventListener("mouseenter",function(){
+    imgdown.style.transform = "scale(0.8)";
+
+})
+imageseconddown.addEventListener("mouseleave",function(){
+    imgdown.style.transform = "scale(1)";
+    })
