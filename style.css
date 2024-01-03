@@ -689,7 +689,8 @@ transform-origin: bottom;
     width: 100%;
     display: inline-block;
     /* object-fit: cover; */
-    overflow-x: auto;
+    overflow-x: hidden;
+    
 }
 #servicesanim img{
     animation-name: anim;
@@ -1215,8 +1216,7 @@ input::placeholder{
     position: absolute;
     top: 100%;
     left: 0%;
-    transition: cubic-bezier(0.77, 0, 0.175, 1) .7s;
-    
+    transition: cubic-bezier(0.77, 0, 0.175, 1) .7s;   
 }
 
 #downfooter{
